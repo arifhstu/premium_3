@@ -1,0 +1,138 @@
+
+/*********************************************** 
+**********************INDEX********************* 
+
+    1. Font link
+    2. Common css
+         (button, margin, paddingh)
+    3. Categories item of left side
+    4. product item
+    5.
+    6.
+    7.
+**********************************************
+********************************************/
+/*font*/
+h1, h2, h3, p, a{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+/********common css*********/
+*{
+  margin: 0 auto;
+  padding: 0px;
+}
+button.btn {
+    background: #2ecc71;
+    color: #fff;
+  }
+ 
+i{
+  cursor: pointer;
+}
+
+ /*******Categories item of left side********/
+
+.accordion button:hover, .form-check label:hover {
+    color: blue;
+}
+ .list-group-item{
+   display: list-item;
+ }
+ .list-group li{
+    margin: 0;
+    background-color: #F8F9FA;
+    margin-left: 5px;
+ }
+.list-group li:hover{
+    color: blue;
+    background-color: #ddd;
+ }
+.grid_sort .icon .active{
+     color: #2ecc71;
+     margin-bottom: 30px;
+}
+ 
+.underlinee{
+     border-bottom: 2px solid #2ecc71;
+     display: inline-block;
+     width: 200px; 
+     height: 5px;
+}
+.sort{
+       border-bottom: 2px solid #2ecc71;
+     display: inline-block;
+     width: 50%; 
+     height: 5px;
+}
+
+.Clear_all{
+     background-color: #ddd !important;
+     color: #000 !important;
+}
+
+/***************** product area******************** */
+.main_title h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}      
+.feature_item {
+  padding: 15px 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+  cursor: pointer;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; 
+  text-align: left;
+  line-height: 18px;
+}
+.feature_item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase; 
+  }
+  .feature_item img{
+    max-height: 600px;
+    width: auto;
+  }
+  .feature_item .related_product{
+     height: 245px;
+    width: auto;
+  }
+.feature_item .gallary img:hover{
+    border: 1px solid blue;
+  }
+
+/*******product item hover************/
+  .feature_item:hover {
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+  }
+.feature_item .card_icon{
+   padding: 10px;
+   text-align: center;
+   color: #fff;
+   background-color: #2ecc71;
+}
+.share_print i{
+  padding: 15px;
+}
+.share_print i:hover{
+  background-color: #ddd;
+}
+
+.bag_border{
+  border: 2px solid #ddd;
+  padding: 2px;
+}
+.accordion video{
+  max-height: 400px;
+  width: auto;
+}
+
+
