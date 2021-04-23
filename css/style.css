@@ -30,46 +30,19 @@ button.btn {
 i{
   cursor: pointer;
 }
+.rating{
+  color: yellow;
+  font-size: 25px;
+   font-weight: 700;
+
+}
 
  /*******Categories item of left side********/
 
 .accordion button:hover, .form-check label:hover {
     color: blue;
 }
- .list-group-item{
-   display: list-item;
- }
- .list-group li{
-    margin: 0;
-    background-color: #F8F9FA;
-    margin-left: 5px;
- }
-.list-group li:hover{
-    color: blue;
-    background-color: #ddd;
- }
-.grid_sort .icon .active{
-     color: #2ecc71;
-     margin-bottom: 30px;
-}
- 
-.underlinee{
-     border-bottom: 2px solid #2ecc71;
-     display: inline-block;
-     width: 200px; 
-     height: 5px;
-}
-.sort{
-       border-bottom: 2px solid #2ecc71;
-     display: inline-block;
-     width: 50%; 
-     height: 5px;
-}
 
-.Clear_all{
-     background-color: #ddd !important;
-     color: #000 !important;
-}
 
 /***************** product area******************** */
 .main_title h2 {
@@ -130,9 +103,16 @@ i{
   border: 2px solid #ddd;
   padding: 2px;
 }
+.accordion h2:hover{
+  background-color: #E7F1FF;
+  color: blue;
+
+}
 .accordion video{
   max-height: 400px;
   width: auto;
 }
 
-
+.related_products h1{
+  text-decoration: underline;
+}
